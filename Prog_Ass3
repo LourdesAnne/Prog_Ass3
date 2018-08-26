@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+int main(){
+
+      int one, two, three, four,  product;
+    cout<< "Coco's number of pets if multiplied"<<endl;
+    cout<< "She has  dogs, cats,  birds and  fishes, how many is the product of it all? \n\n";
+    cout<< "number of dogs."<<endl;
+    cin>> one;
+
+    cout<< "number of cats."<<endl;
+    cin>> two;
+
+    cout<< "number of birds."<<endl;
+    cin>> three;
+
+    cout<< "number of fishes."<<endl;
+    cin>> four;
+
+    product= one*two*three*four;
+    cout<< "Multiplying"<<one <<" dog, "<<two<< "cats, "<<three<<" birds, and "<<four<<" fishes. Coco has "<<product<<" pets." <<endl;
+    
+    return 0;
+}
